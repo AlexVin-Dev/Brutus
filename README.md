@@ -1,0 +1,2 @@
+# genpass
+Генератор паролей SanyaFox
