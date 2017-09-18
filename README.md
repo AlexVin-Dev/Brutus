@@ -1,8 +1,8 @@
 # Personal-page
-Генератор паролей SanyaFox
+# Генератор паролей SanyaFox
 https://sanyafox.ru/pass.php
 
 
 
-Обращения к сервису Whois на PHP 
+# Обращения к сервису Whois на PHP 
 https://sanyafox.ru/whois.php
