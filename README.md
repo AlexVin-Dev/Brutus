@@ -5,4 +5,4 @@ https://sanyafox.ru/pass.php
 
 
 Обращения к сервису Whois на PHP 
-https://sanyafox.ru/course.php
+https://sanyafox.ru/whois.php
