@@ -1,7 +1,7 @@
 # Генератор паролей SanyaFox
-https://sanyafox.ru/pass.php
+https://sanyafox.ru/script/pass.php
 
 
 
 # Обращения к сервису Whois на PHP 
-https://sanyafox.ru/whois.php
+https://sanyafox.ru/script/whois.php
