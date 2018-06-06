@@ -2,10 +2,21 @@
  <head>
   <meta charset="utf-8">
   <title>Обращения к сервису Whois на PHP </title>
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/css/font-awesome.min.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="shortcut icon" href="images/whois.png">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
   <style>
    body {
       background:url(images/bd.jpg)  no-repeat;
@@ -17,12 +28,14 @@
   </style>
  </head>
  <body>
-<center><img src="images/whois.png" class="img-responsive"></center>
- <div class="container">
+<div class="table-container">
+    <div class="table-block footer-push">
 
-  
-  
-
+      <!-- Primary Page Layout
+           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="container">
+        <div class="row">
+          <div class="one-half column" style="margin-top: 25%">
 <center>
  <form method="post">
  <input type="text" class="form-control" name="ip" size="35">
@@ -31,7 +44,6 @@
 </center>
 <?php
 if(!empty($_POST['ip'])) echo whois("whois.arin.net",$_POST['ip']);
-
 function whois($url,$ip)
 {
   // Соединение с сокетом TCP, ожидающим на сервере "whois.arin.net" по 
@@ -51,7 +63,6 @@ function whois($url,$ip)
     }
     // закрываем соединение
     fclose ($sock);
-
     // Ищем реферальный сервере
     $pattern = "|ReferralServer: whois://([^\n<:]+)|i";
     preg_match($pattern, $text, $out);
@@ -61,26 +72,29 @@ function whois($url,$ip)
 }
 ?>
 </p>
-  <table width="20%" bordercolor="%">
-    <tr>
-      <td></td>
-    </tr>
-  </table>
 <br />
-<img src="/images/whois.png" class="img-responsive" style="max-width: 200px; width: 100%;"><h3>WHOIS</h3><p>WHOIS (от англ. who is — «кто это?») — сетевой протокол прикладного уровня, 
+<h3>WHOIS</h3><p>WHOIS (от англ. who is — «кто это?») — сетевой протокол прикладного уровня, 
   базирующийся на протоколе TCP (порт 43). 
 Основное применение — получение регистрационных данных о владельцах доменных имён, IP-адресов и автономных систем.</p><h3>Как это работает</h3><p>Мы обращаемся к сайту whois.arin.net и получаем по IP информацию <a href="https://github.com/SanyaFox/Personal-page">Исходный код страницы</a></p>
-
-
-<footer id="footer" class="footer"><!--Footer-->
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <p class="pull-left">Copyright © <?php echo  date("Y"); ?></p>
-                <p class="pull-right">Александр Винокуров <a href="/">SanyaFox</a></p>
-            </div>
+          </div>
         </div>
-    </div>
+      </div>  <!-- end primary div.container -->
+    </div> <!-- end primary div.table-block -->
+
+  
+  
+
+
+    <div class="table-block">
+      <!-- Page Footer Layout
+           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="container">
+        <footer id="footer" class="twelve columns">
+          Copyright © <?php echo  date("Y"); ?> | Александр Винокуров <a href="/">SanyaFox</a>
+        </footer>
+      </div> <!-- end footer div.container -->
+    </div>  <!-- end footer div.table-block -->
+  </div>
 </footer><!--/Footer-->
 </div>
  </body>
