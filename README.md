@@ -21,12 +21,9 @@
 Мы обращаемся к сайту whois.arin.net и получаем по IP 
 
 <em>Проверить скрипт можно здесь:</em> <a href="https://sanyafox.ru/script/whois.php">Link to another page</a>
-<a href="./another-page.html">Link to another page</a>
 
 ### Запрос скина по нику ely.by
 Вводим ник пользователя и получаем иконку и картинку скина 
 
 <em>Проверить скрипт можно здесь:</em> <a href="https://sanyafox.ru/script/skin.php">Link to another page</a>
-<a href="./another-page.html">Link to another page</a>
-
 
