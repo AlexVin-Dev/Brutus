@@ -27,3 +27,15 @@
 
 <em>Проверить скрипт можно здесь:</em> <a href="https://sanyafox.ru/script/skin.php">Link to another page</a>
 
+
+
+
+
+
+
+
+
+
+
+
+
