@@ -57,7 +57,7 @@ if(isset($_POST['username'])) {
 	echo "<br><br><img src='http://ely.by/minecraft/skin_buffer/skins/".$info['SKIN']['hash'].".png'></p>";
 }
 ?>  
-				<form  action="index.php" method="post">
+				<form  action="skin.php" method="post">
 				  <div class="row">
 					<div class="six columns">
 				      <label for="usernametext">Ник пользователя</label>
