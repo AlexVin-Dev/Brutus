@@ -11,7 +11,8 @@
 
 Устали запоминать пароли? Менеджеры паролей, например SanyaFox, помогают Вам хранить пароли в одном безопасном месте, где они зашифрованы и доступны только Вам. Встроенный генератор паролей также помогает Вам создавать надёжные пароли когда нужно.
 
-<em>Проверить скрипт можно здесь:</em> https://sanyafox.ru/script/pass.php
+<em>Проверить скрипт можно здесь:</em> <a href="https://sanyafox.ru/script/pass.php">Link to another page</a>
+
 
 ### Обращения к сервису Whois на PHP 
 <strong>WHOIS</strong> (от англ. who is — «кто это?») — сетевой протокол прикладного уровня, базирующийся на протоколе TCP (порт 43). Основное применение — получение регистрационных данных о владельцах доменных имён, IP-адресов и автономных систем.
@@ -19,11 +20,13 @@
 Как это работает
 Мы обращаемся к сайту whois.arin.net и получаем по IP 
 
-<em>Проверить скрипт можно здесь:</em> https://sanyafox.ru/script/whois.php
+<em>Проверить скрипт можно здесь:</em> <a href="https://sanyafox.ru/script/whois.php">Link to another page</a>
+<a href="./another-page.html">Link to another page</a>
 
 ### Запрос скина по нику ely.by
 Вводим ник пользователя и получаем иконку и картинку скина 
 
-<em>Проверить скрипт можно здесь:</em> https://sanyafox.ru/script/skin.php
+<em>Проверить скрипт можно здесь:</em> <a href="https://sanyafox.ru/script/skin.php">Link to another page</a>
+<a href="./another-page.html">Link to another page</a>
 
 
