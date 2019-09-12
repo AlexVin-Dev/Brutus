@@ -11,7 +11,7 @@
 
 Устали запоминать пароли? Менеджеры паролей, например SanyaFox, помогают Вам хранить пароли в одном безопасном месте, где они зашифрованы и доступны только Вам. Встроенный генератор паролей также помогает Вам создавать надёжные пароли когда нужно.
 
-<em>Проверить скрипт можно здесь:</em> <a href="https://sanyafox.ru/script/pass.php">Link to another page</a>
+<em>Проверить скрипт можно здесь:</em> <a href="https://velfan.ru/script/pass.php">Link to another page</a>
 
 
 ### Обращения к сервису Whois на PHP 
@@ -20,12 +20,12 @@
 Как это работает
 Мы обращаемся к сайту whois.arin.net и получаем по IP 
 
-<em>Проверить скрипт можно здесь:</em> <a href="https://sanyafox.ru/script/whois.php">Link to another page</a>
+<em>Проверить скрипт можно здесь:</em> <a href="https://velfan.ru/script/whois.php">Link to another page</a>
 
 ### Запрос скина по нику ely.by
 Вводим ник пользователя и получаем иконку и картинку скина 
 
-<em>Проверить скрипт можно здесь:</em> <a href="https://sanyafox.ru/script/skin.php">Link to another page</a>
+<em>Проверить скрипт можно здесь:</em> <a href="https://velfan.ru/script/skin.php">Link to another page</a>
 
 
 
